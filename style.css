@@ -3,47 +3,29 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-body {
+.container {
     display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-}
-
-canvas {
-    background-color: #FF00000A;
-}
-
-h3,span {
-    color: white;
-}
-
-
-.grid {
-    height: 83vh;
-    width: 43vh;
-    background-color: black;
+  }
+  
+  .grid {
+    width: 200px;
+    height: 400px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: space-around;
-    border: 1vh solid white;
-}
-
-.grid div {
-    width: 3.8vh;
-    height: 3.8vh;
-    /*background-color: lightgray;*/
-    border-radius: 25%;
-}
-
-.tetromino {
-    background-color: red;
-}
-
-.mini-grid {
+    background-color: yellow;
+  }
+  
+  .grid div {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .tetromino {
+    background-color: blue;
+  }
+  
+  
+  .mini-grid {
     margin-left: 50px;
     width: 80px;
     height: 80px;
