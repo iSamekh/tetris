@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <script src="script.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="style.css"></link>
-    <title>Basic Tetris</title>
-  </head>
-  
-  <body>
 
-    <h2><a href="https://www.samekh.dev">Return</a></h2>
-    <h3>Score:<span id="score">0</span></h3>
-    <button id="start-button">Start/Pause</button>
+<head>
+  <meta charset="utf-8">
+  <script src="script.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="style.css">
+  </link>
+  <title>Basic Tetris</title>
+</head>
 
-    <div class="container">
+<body>
+
+  <h2><a href="https://www.samekh.dev">Return</a></h2>
+  <h3>Score:<span id="score">0</span></h3>
+  <button id="start-button">Start/Pause</button>
+
+  <div class="container">
+    <div class="container_border">
       <div class="grid">
         <div></div>
         <div></div>
@@ -226,7 +229,9 @@
         <div class="taken"></div>
         <div class="taken"></div>
       </div>
+    </div>
 
+    <div class="grid_border">
       <div class="mini-grid">
         <div></div>
         <div></div>
@@ -245,8 +250,10 @@
         <div></div>
         <div></div>
       </div>
-
     </div>
 
-  </body>
+  </div>
+
+</body>
+
 </html>
