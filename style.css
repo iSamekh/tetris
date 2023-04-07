@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -63,4 +64,28 @@ body {
   height: 2em;
   width: 2em;
   border-radius: 40%;
+}
+
+#start-button {
+  position: absolute;
+  left: calc(50vw);
+  bottom: 1%;
+  z-index: 1;
+}
+
+#score {
+  color: white;
+  position: absolute;
+  top: 1%;
+  left: calc(50vw + 1vmax);
+  font-size: 2vmax;
+  z-index: 1;
+}
+
+#return {
+  color: white;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  z-index: 1;
 }
